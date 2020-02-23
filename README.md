@@ -21,7 +21,20 @@ Component (view) and action will  dispatch  to reducers. Reducers divided task a
 Because of time not  able to create backed in nodejs. I'm able to do backed part also, Please let me know if this is require.
 Application is simple and self explanatory.
 <p>================================================</p>
-
+<h3>Create a .babelrc  file and put below mentioned code</h3>
+<p>
+  {
+  "presets": [
+    "@babel/preset-env", 
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime"
+  ]  
+}
+  </p>
+<p>================================================</p>
 <p>Clone  the project and run command</p>
 <p><h3>npm install</h3></p>
 <p><h3>npm start</h3></p>
