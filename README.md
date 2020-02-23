@@ -9,3 +9,7 @@ book detail in redux store and leverage from the same values while searching).
 3. Editing a particular book detail
 4. Also create a page with the list of all the books listed in the system.
 5. System created using redux.
+
+Clone  the project and
+run npm install
+npm start
