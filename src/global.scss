@@ -1,0 +1,56 @@
+body { font-size: 12px; line-height: 24px; font-family: "Arial", sans-serif; font-weight: 400; color: #7f8897; }
+*{ box-sizing: border-box; padding: 0; margin: 0; }
+a { text-decoration: none; transition: all ease 0.6s; }
+.wrapper { width: 100%; float: left; }
+.container { max-width: 1230px; padding: 0 15px; margin: 0 auto; }
+.header_site {  padding: 20px 0; width: 100%; float: left;  border-bottom:solid 1px #098276; }
+.formArea { padding: 50px 0; width: 100%; float: left; }
+.formArea .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.formArea .sub{ width:100%}
+.formArea .sub label { margin: 0 15px 0 0; font-size: 18px; color: #272b2c; font-weight: 500;  display: inline-block; }
+.formArea .sub .customfild { width: 400px; padding: 10px; height: 50px; font-size: 16px; color: #272b2c; border: 1px solid #ccc; }
+
+.formArea .addBtn, .backBtn {padding: 12px 30px; font-size: 18px; color: #fff; display: inline-block; border: 2px solid transparent; border-radius: 5px; background: #098276;  }
+.subBtn{ float:right; width:100%;text-align: right;}
+.formArea .btn { margin: 0 0 0 20px; padding: 10px 30px; font-size: 18px; height: 50px; color: #fff; border: 2px solid transparent; border-radius: 5px; transition: all ease 0.5s; background: #098276; }
+.formArea .btn:hover, .formArea .addBtn:hover, .backBtn:hover { color: #098276; border: 2px solid #098276; background: transparent; }
+.tr{display:flex;justify-content: space-between; align-items: center;border-bottom:solid 1px ; padding:6px; color:#000}
+
+/*.tr:nth-child(2n+2){background: rgb(201, 199, 199); }
+.tr:nth-child(2n+1){background: rgb(218, 216, 216); }*/
+.isbn{width:10%}
+.title{width:10%}
+.description{width:62%}
+.author{width:10%}
+.action{width:5%}
+
+.bold{font-weight: bold;}
+
+/* footer-site */
+.footer_site { width: 100%; float: left; padding: 30px 0; background-color: #098276; margin-top: 60px; } 
+
+.form_bar .container { display: block; }
+.form_bar .btn { margin: 0; }
+.form_bar .box, .backBtn { margin: 0 0 20px; }
+.form_bar .sub .box label {width: 165px;vertical-align: top; }
+
+@media screen and (max-width: 1140px) {
+    .formArea .sub.search{width:80%;}
+    .formArea .search .btn{ margin-top: 20px;}
+}
+
+@media screen and (max-width: 680px) {
+      .formArea .search .btn{margin: 20px 0 0 8px; padding: 10px 10px; font-size: 12px; height: 40px; color: #fff; border: 1px solid transparent; border-radius: 5px; transition: all ease 0.5s; background: #098276; }
+      .formArea .sub  label{ font-size:14px;}
+    .description{width:50%}
+    .formArea .sub.book  .customfild { width: 200px; padding: 5px; height: 40px; font-size: 12px;  }
+    footer img,header img{width:40%}
+
+}
+
+@media screen and (max-width: 420px) {
+    .formArea .sub.search  .customfild { width: 200px; padding: 5px; height: 40px; font-size: 12px;  }
+     .description{display:none;}
+    .form_bar .sub .box label {width: 82px; }
+    .formArea .addBtn, .backBtn {padding: 5px 10px; font-size: 14px; color: #fff; display: inline-block; border: 1px solid transparent; border-radius: 5px; background: #098276;  }
+}
