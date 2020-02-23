@@ -22,6 +22,6 @@ Because of time not  able to create backed in nodejs. I'm able to do backed part
 Application is simple and self explanatory.
 <p>================================================</p>
 
-<p>Clone  the project and</p>
-<p><h3>run npm install</h3></p>
+<p>Clone  the project and run command</p>
+<p><h3>npm install</h3></p>
 <p><h3>npm start</h3></p>
